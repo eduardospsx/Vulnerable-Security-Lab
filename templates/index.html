@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vulnerable Security Lab</title>
+</head>
+<body>
+
+    <h1>Vulnerable Security Lab</h1>
+
+    <h2>Search</h2>
+
+    <form action="/search" method="GET">
+        <input type="text" name="q" placeholder="Search">
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>User lookup</h2>
+
+    <form action="/user" method="GET">
+        <input type="text" name="username" placeholder="Username">
+        <button type="submit">Find user</button>
+    </form>
+
+    <h2>Ping</h2>
+
+    <form action="/ping" method="GET">
+        <input type="text" name="host" placeholder="Host">
+        <button type="submit">Ping</button>
+    </form>
+
+</body>
+</html>
